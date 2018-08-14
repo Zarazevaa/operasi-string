@@ -58,5 +58,8 @@ public class praktikum2 {
         }
     }
        
+       private static void tampilHasil(String convert) {
+        System.out.println("Kalimat Alay Angka : " + convert);
+    }
        
 }
