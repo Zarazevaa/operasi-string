@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package j11;
+import java.util.Locale;
 import java.util.Scanner;
 /**
  *
@@ -86,5 +87,13 @@ public class praktikum1 {
         {
             System.out.println(arrTr[i]);
         }
+        
+         double d = 1545454000;
+        System.out.println(String.format("uang saya %, .4f", d));
+        
+        System.out.println(String.format("Uang saya %, .4f", d));
+        
+        System.out.println(String.format(Locale.forLanguageTag("in-ID"),
+                "Uang saya Rp %, .2f", d));
 }
 }
