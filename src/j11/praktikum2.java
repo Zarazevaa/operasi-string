@@ -25,4 +25,14 @@ public class praktikum2 {
         tampilPerKata(kalimat, convert);
         tampilHasil(convert);
     }
+    
+     public static String tampilInput() {
+        Scanner baca = new Scanner(System.in);
+        
+        System.out.println("Masukkan kalimat: ");
+        String kalimat = baca.nextLine();
+        System.out.println("KAlimat asli: " + kalimat);
+        
+        return kalimat;
+    }    
 }
